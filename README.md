@@ -1,1 +1,1 @@
-# algorithms-in-every-programming-language
+# dsa-in-every-programming-language
