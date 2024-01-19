@@ -1,4 +1,4 @@
-# Efficient Data Structure and ALgorithm Implementation
+# DSA in every programming language
 
 # Language
 1. C
