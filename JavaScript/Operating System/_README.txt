@@ -1,7 +1,7 @@
 Rules before commiting in Javascript :
 NOTE : Rules that have " * " is mandatory to follow to ger your pull request accepted
 
-*1. The file name must be "UpperCammelCase". Example: "RadixSort.js"
+*1. The file name must be Formal. Example: "Banker's Algorithm.js"
 *2. Write code that is the most efficient in every case.
 3. The code must have an "Explanation section" why this code is efficient and working
 4. The code must have Time Complexity and Space Complexity written in comment like-
