@@ -5,6 +5,7 @@
 2. C++
 3. JavaScript
 4. MatLab
+5. Python
 
 # HOW TO SUPPORT?
 Anyone can send Pull Request of their code if -
