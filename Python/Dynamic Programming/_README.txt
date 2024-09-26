@@ -1,8 +1,8 @@
-Rules before commiting in JavaScript :
+Rules before commiting in Python :
 NOTE : Rules that have " * " is mandatory to follow to ger your pull request accepted
 
-*1. The file name must be "UpperCammelCase". Example: "RadixSort.js"
-*2. Make sure the filename for the algorithm is same across other programming language files like "RadixSort.js" and "RadixSort.cpp"
+*1. The file name must be "UpperCammelCase". Example: "RadixSort.py"
+*2. Make sure the filename for the algorithm is same across other programming language files like "RadixSort.py" and "RadixSort.js"
 *3. Write code that is the most efficient in every case.
 4. The code must have an "Explanation section" why this code is efficient and working
 5. The code must have Time Complexity and Space Complexity written in comment like-

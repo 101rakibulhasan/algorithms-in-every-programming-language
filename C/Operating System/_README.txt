@@ -1,13 +1,14 @@
-Rules before commiting in Javascript :
+Rules before commiting in C :
 NOTE : Rules that have " * " is mandatory to follow to ger your pull request accepted
 
-*1. The file name must be Formal. Example: "Banker's Algorithm.c"
-*2. Write code that is the most efficient in every case.
-3. The code must have an "Explanation section" why this code is efficient and working
-4. The code must have Time Complexity and Space Complexity written in comment like-
+*1. The file name must be "UpperCammelCase". Example: "RadixSort.c"
+*2. Make sure the filename for the algorithm is same across other programming language files like "RadixSort.c" and "RadixSort.js"
+*3. Write code that is the most efficient in every case.
+4. The code must have an "Explanation section" why this code is efficient and working
+5. The code must have Time Complexity and Space Complexity written in comment like-
 	" Time Complexity  - O(n)
 	  Space Complexity - O(1) " 
-*5. The code must have an "I/O section" like-
+*6. The code must have an "I/O section" like-
 	" Input: 
 		1 10
 
