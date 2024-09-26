@@ -14,3 +14,12 @@ for i in range(0, len(plainText)):
         cipherText += plainText[i]
 
 print('The Cipher Text is: ', cipherText)
+
+'''
+Input:
+    Enter The Plain Text: Hello World
+    Enter The Shift Value: 3
+
+Output:
+    The Cipher Text is:  Khoor Zruog
+'''

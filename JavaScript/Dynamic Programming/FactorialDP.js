@@ -11,6 +11,14 @@ function CreateFactorial()
 
 CreateFactorial();
 
-let x = prompt("Enter One Number: ");
+let x = prompt("Enter the number: ");
 
-console.log(arr[x]);
+console.log("The factorial of " + x +" is " + arr[x]);
+
+/*
+Input:
+    Enter the number: 12
+
+Output:
+    The factorial of 12 is 479001600
+*/

@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 void _merge(int arr[], int l, int r, int mid)
@@ -50,17 +51,40 @@ void mergeSort(int arr[], int n, int l, int r)
     }
 }
 
+void PrintArr(int l[], int n)
+{
+    for(int i=0; i < n; i++)
+    {
+        cout << l[i] << " ";
+    }
+    cout << '\n';
+}
+
 int main()
 {
-    //system("color F0");
+    cout << "Enter the number of elements: ";
     int n; cin >> n;
+    cout << "Enter the elements: ";
     int arr[n];
-    for(int i =0;i < n;i++) cin>> arr[i];
+    for(int i=0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
 
     int l = 0, r = n-1;
-    mergeSort(arr,n,l,r);
+    mergeSort(arr,n, l, r);
 
-    for(int i =0;i < n;i++) cout<< arr[i] << " ";
+    cout << "Sorted array: ";
+    PrintArr(arr, n);
 
     return 0;
 }
+
+/*
+Input:
+    Enter the number of elements: 10
+    Enter the elements: 10 9 8 7 6 5 4 3 2 1
+
+Output:
+    Sorted array: 1 2 3 4 5 6 7 8 9 10
+*/

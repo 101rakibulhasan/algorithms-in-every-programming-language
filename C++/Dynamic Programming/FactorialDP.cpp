@@ -1,9 +1,10 @@
 #include<iostream>
+
 using namespace std;
 
 int arr[100001];
 
-void CreateFactorial()
+void FactorialDP()
 {
     arr[0] = 1;
     arr[1] = 1;
@@ -14,8 +15,19 @@ void CreateFactorial()
 
 int main()
 {
-    CreateFactorial();
+    
+    FactorialDP();
+
+    cout << "Enter the number: ";
     int x; cin >> x;
-    cout << arr[x] << endl;
+    cout << "The factorial of " << x << " is " << arr[x] << endl;
     return 0;
 }
+
+/*
+Input:
+    Enter the number: 12
+
+Output:
+    The factorial of 12 is 479001600
+*/
